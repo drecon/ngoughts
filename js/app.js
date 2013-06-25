@@ -4,7 +4,7 @@
 
   var app;
 
-  app = angular.module('ngOughts', []);
+  app = angular.module('ngOughts', ['ng']);
 
   app.controller("BoardCtrl", function($scope) {
     return $scope.board = new Board;
