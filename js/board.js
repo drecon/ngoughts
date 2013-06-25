@@ -68,10 +68,6 @@
       return this.current_player ^= 1;
     };
 
-    Board.prototype.cellAt = function(x, y) {
-      return this.grid[x][y];
-    };
-
     Board.prototype.winningMove = function(marker) {
       return this._winningRow(this.grid, marker) || this._winningColumn(this.grid, marker) || this._winningDiagonal(this.grid, marker);
     };

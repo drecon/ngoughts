@@ -34,9 +34,6 @@ class @Board
   switchPlayer: ->
     @current_player ^= 1
 
-  cellAt: (x, y) ->
-    @grid[x][y]
-
   winningMove: (marker) ->
     @_winningRow(@grid, marker) ||
     @_winningColumn(@grid, marker) ||
