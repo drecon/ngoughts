@@ -6,4 +6,8 @@
 
   app = angular.module('ngOughts', []);
 
+  app.controller("BoardCtrl", function($scope) {
+    return $scope.board = new Board;
+  });
+
 }).call(this);

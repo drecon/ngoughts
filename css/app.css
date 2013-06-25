@@ -1,0 +1,12 @@
+table td {
+  table-layout: fixed;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-size: 250%;
+}
+
+.winning {
+  background: green;
+  color: white;
+}
