@@ -6,7 +6,7 @@
 
   app = angular.module('ngOughts', ['ng']);
 
-  app.controller("BoardCtrl", function($scope) {
+  app.controller("BoardCtrl", function($scope, Board) {
     return $scope.board = new Board;
   });
 

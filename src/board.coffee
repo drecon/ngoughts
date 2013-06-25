@@ -1,4 +1,4 @@
-class @Board
+class Board
   SIZE = 3
   EMPTY  = ' '
   NOUGHT = 'O'
@@ -70,3 +70,6 @@ class @Board
 
     hasBeenPlayed: ->
       @marker != EMPTY
+
+angular.module("ngOughts").factory "Board", ->
+    Board
