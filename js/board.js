@@ -49,6 +49,7 @@
       cell.mark(this.currentPlayerMarker());
       if (move = this.winningMove(this.currentPlayerMarker())) {
         this.won = true;
+        this.winning_marker = this.currentPlayerMarker();
         _results = [];
         for (_i = 0, _len = move.length; _i < _len; _i++) {
           cell = move[_i];

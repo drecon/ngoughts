@@ -24,6 +24,7 @@ class @Board
 
     if move = @winningMove(@currentPlayerMarker())
       @won = true
+      @winning_marker = @currentPlayerMarker()
       cell.winning = true for cell in move
     else
       @switchPlayer()

@@ -8,7 +8,7 @@
 
   <body ng-controller="BoardCtrl">
 
-    <h1 ng-show="board.won">YOU ARE WINNER!</h1>
+    <h1 ng-show="board.won">{{ board.winning_marker }} won the game!</h1>
 
     <table class="board">
       <tr ng-repeat="row in board.grid">
