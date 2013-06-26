@@ -1,4 +1,4 @@
-ngoughts
+ngOughts & crosses
 ========
 
 Noughts and crosses AngularJS demo.
